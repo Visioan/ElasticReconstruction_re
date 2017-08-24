@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerCommandArguments>-w 100 --odometry E:\Experments\indoor_execurables/sandbox/odometry.log --odometryinfo E:\Experments\indoor_execurables/sandbox/odometry.info --loop E:\Experments\indoor_execurables/sandbox/result.txt --loopinfo E:\Experments\indoor_execurables/sandbox/result.info --pose E:\Experments\indoor_execurables/sandbox/pose.log --keep E:\Experments\indoor_execurables/sandbox/keep.log --refine ../sandbox/pcds/reg_refine_all.log</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>

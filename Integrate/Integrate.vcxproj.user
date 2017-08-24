@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerCommandArguments>--pose_traj E:/Experiment/my_executables/datasets/pose_slac.log --save_to noctr_word.pcd --seg_traj E:/Experiment/my_executables/datasets/seg_pos.log --save_to noctr_word.pcd --num  4 --resolution 12 --camera longrange.param -sequence_path E:/Experiment/my_executables/datasets -associations E:/Experiment/my_executables/datasets/associations480.txt --length 4.0 --interval 100</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LocalDebuggerCommandArguments>--pose_traj E:\Experiment\my_executables\bin\pose.log --seg_traj E:\Experiment\my_executables\sandbox\myseg.log  --num 13  --resolution 12 --camera E:\Experiment\my_executables\run_sh\longrange.param -sequence_path E:/datasets/MyData/Data4 -associations E:/datasets/MyData/Data4/associations.txt --length 4.0 --interval 50</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>
